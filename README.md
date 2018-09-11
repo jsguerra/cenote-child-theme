@@ -1,2 +1,2 @@
-# cenote-child-theme
-A child theme for WordPress theme Cenote
+# Cenote Child Theme
+> A child theme for WordPress theme Cenote
