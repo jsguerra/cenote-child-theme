@@ -1,0 +1,16 @@
+/*!
+Theme Name: Cenote Child Theme
+Theme URI: http://underscores.me/
+Author: Jose Guerra
+Author URI: https://joseguerra.uk
+Description: A simple and minimal blog theme
+Template: cenote
+Version: 1.0.0
+Text Domain: simplified
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+.site-header {
+	border-bottom: 1px solid #ccc;
+}
+
+/*# sourceMappingURL=../cenote-child-theme/sass/maps/style.css.map */
