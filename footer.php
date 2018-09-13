@@ -1,15 +1,3 @@
-<?php
-/**
- * The template for displaying the footer
- *
- * Contains the closing of the #content div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package cenote
- */
-
-?>
 		</div><!-- .tg-container -->
 	</div><!-- #content -->
 
@@ -30,7 +18,12 @@
 			<div class="tg-container">
 				<div class="tg-footer-bottom-container tg-flex-container">
 					<div class="tg-footer-bottom-left">
-						<?php get_template_part( 'template-parts/footer/footer', 'info' ); ?>
+            <div class="site-info">
+              <?php
+                /* translators: 1: Current Year, 2: Blog Name 3: Theme Developer 4: WordPress. */
+                printf( esc_html__( 'Copyright %1$s %2$s All Right Reserved.', 'cenote' ), esc_attr( date( 'Y' ) ), esc_html( get_bloginfo( 'name' ) ) );
+              ?>
+            </div><!-- .site-info -->
 					</div><!-- .tg-footer-bottom-left -->
 					<div class="tg-footer-bottom-right">
 					</div><!-- .tg-footer-bottom-right-->
