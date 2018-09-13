@@ -35,6 +35,13 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
   text-transform: capitalize;
 }
 
+.tg-site-menu--default .current_page_item > a,
+.tg-site-menu--default .current-menu-item > a,
+.tg-site-menu--default .current_page_ancestor > a,
+.tg-site-menu--default .current-menu-ancestor > a {
+  border-bottom: 0;
+}
+
 // Main Content
 // ==============
 .site-content {
