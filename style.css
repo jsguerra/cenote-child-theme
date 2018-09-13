@@ -31,4 +31,8 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	text-transform: capitalize;
 }
 
+.site-content {
+	margin-top: 120px;
+}
+
 /*# sourceMappingURL=../cenote-child-theme/sass/maps/style.css.map */
